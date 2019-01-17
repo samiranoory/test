@@ -1,0 +1,123 @@
+/*Christmas.css styling for christmas.html V.50*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+#header{
+    height: 12vh;
+    width:100vw;
+    background-color: beige;
+}
+
+            #header h1{
+              font-size: 45px;
+              color: darkred;
+
+            }
+
+#navdiv{
+    height:9vh;
+    width:100vw;
+    background-color: white;
+}
+
+
+                  #navs{
+                    height:7vh;
+                    width: 25vw;
+                    background-color: white;
+                    float: left;
+                    text-align: center;
+                    padding-top: 2vh;
+                  }
+
+                  #navs a{ /*här stylar vi endast menyen i sideabar one-diven*/
+                    background-color: white; /*Bakgrundsfärgen för menyen. helst lik hemsidans färg*/
+                    color: gold;
+                    text-decoration: none; /*ingen underlining*/
+                    margin-right: 5px;
+                  }
+
+                  #navs a:hover{ /*så att länken/menyen ändrar färg när du har musen över ordet*/
+                    color:darkred;
+                  }
+
+
+
+                  #navdivtwo{ /*denna diven ingår i navdiven*/
+                      height:9vh;
+                      width:10vw;
+                      background-color: darkred;
+                      float:right;
+                      margin-right: 9vw;
+                  }
+
+
+                  #navdivtwo img{
+                    height: 9vh;
+                    width:8vw;
+                  }
+
+#body{
+    height: 65vh;
+    width: 100vw;
+    background-color: beige;
+}
+
+      #body img{
+        height: 45vh;
+        width: 40vw;
+        float: right;
+        margin-top: 10vh;
+        margin-right: 10vw;
+      }
+
+      #inbody{
+        height: 40vh;
+        width:30vw;
+        margin-top: 10vh;
+        margin-left: 7vw;
+        float: left;
+      }
+
+          #inbody h2{
+            font-size: 29px;
+            color: darkblue;
+          }
+
+          #inbody p{
+            font-size: 16px;
+          }
+
+
+#footer{
+    height:12vh;
+    width: 100vw;
+    background-color: darkred;
+    padding-top: 2vh;
+}
+
+          #footer h3{
+            font-size: 24px;
+            color: gold;
+            margin-left: 7vw;
+          }
+
+          .alla img{
+            height: 37%;
+            width: 36%;
+          }
+
+          .alla{
+            height: 12vh;
+            width: 9vw;
+            text-align: left;
+            float: right;
+          }
+
+          .alla h4{
+            color: gold;
+            font-size: 14px;
+          }

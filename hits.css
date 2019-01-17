@@ -1,0 +1,66 @@
+/*css styling sheet åt Topholidaysongs.html*/
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+#header{
+    height:12vh;
+    width:100vw;
+    background-color: green;
+}
+
+          #header h1{
+                  font-size: 30px;
+                  color: lightyellow;
+                  padding: 2vh;
+          }
+
+
+#content{
+    height:79vh;
+    width:100vw;
+    background-color: red;
+}
+
+        .alla img{/*för att fixa bilder och anpassa dem till bilder*/
+            height: 78%;
+            width: 68%;
+          }
+
+          .alla h2{
+              font-size: 19px;
+              color: darkgreen;
+          }
+
+        .alla{ /*class i css skrivs med .*/
+            border: 1px solid darkred;
+            height: 35vh;
+            width: 30vw;
+            float: left;
+            text-align: center;
+            padding-top: 1vh;
+            margin-left: 2vw;
+            margin-top: 1.5vh;
+            background: white;
+        }
+
+#footer{
+    height:7vh;
+    width:100vw;
+    background-color: green;
+    padding-top: 2vh;
+}
+
+
+      #footer a{ /*här stylar vi endast menyen i sideabar one-diven*/
+          background-color: green; /*Bakgrundsfärgen för menyen. helst lik hemsidans färg*/
+          color: lightyellow;
+          text-decoration: none; /*ingen underlining*/
+          margin-right: 5px;
+        }
+
+        #footer a:hover{ /*så att länken/menyen ändrar färg när du har musen över ordet*/
+          color:darkred;
+        }
